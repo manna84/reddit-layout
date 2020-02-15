@@ -7,11 +7,10 @@ header {
     background-size: cover;
 }
 
-
-
 .main-banner-top {
     background-color: aqua;
     display: flex;
+    justify-content: space-between;
 }
 
 /*-----REUSE ITEM----*/
