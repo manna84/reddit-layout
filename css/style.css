@@ -63,8 +63,10 @@ header {
 .btn {
     text-decoration: none;
     border: .125em solid var(--main-col);
+    border-radius: 12.5em;
     padding: .125em .6em;
     color: var(--def-col);
     text-transform: uppercase;
-
 }
+
+
