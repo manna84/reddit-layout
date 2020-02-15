@@ -13,6 +13,11 @@ header {
     justify-content: space-between;
 }
 
+.main-banner-top ul {
+    background-color: red;
+    display: flex;
+}
+
 /*-----REUSE ITEM----*/
 
 .row {
