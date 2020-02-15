@@ -39,9 +39,7 @@ header {
 
 .block-search {
     margin-right: 4em;
-    position: relative;
     display: flex;
-
 }
 
 .bar-search {
