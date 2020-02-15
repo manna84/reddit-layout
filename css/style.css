@@ -1,8 +1,24 @@
+/*-----HEADER----*/
+
 header {
     background-image: url(img/background-main.jpg);
     height: 60vh;
     background-position: center;
     background-size: cover;
+}
+
+
+
+.main-banner-top {
+    background-color: aqua;
+    display: flex;
+}
+
+/*-----REUSE ITEM----*/
+
+.row {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /*-----Logo----*/
