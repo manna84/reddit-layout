@@ -1,5 +1,6 @@
 :root {
     --main-col: #FEC61B;
+    --def-col:#fff;
 }
 
 /*-----HEADER----*/
@@ -62,5 +63,7 @@ header {
 .btn {
     text-decoration: none;
     border: .125em solid var(--main-col);
-    padding: .125em .5em;
+    padding: .125em .6em;
+    color: var(--def-col);
+    text-transform: uppercase;
 }
