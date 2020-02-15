@@ -58,6 +58,7 @@ header {
     border-radius: 0 12.5em 12.5em 0;
     font-size: 1em;
     padding-bottom: .5em;
+    cursor: pointer;
 }
 
 .btn {
