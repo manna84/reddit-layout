@@ -16,6 +16,7 @@ header {
 .main-banner-top ul {
     background-color: red;
     display: flex;
+    margin-right: 1.250em;
 }
 
 /*-----REUSE ITEM----*/
