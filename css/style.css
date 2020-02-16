@@ -83,7 +83,7 @@ header {
 
 .btn-log:hover {
     background-color: var(--btn-hov);
-    border-color: var(--btn-hov)
+    border-color: var(--btn-hov);
     color: var(--sec-col);
     transition: background-color .2s, color .2s;
 }
