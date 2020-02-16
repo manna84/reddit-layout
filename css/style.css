@@ -189,7 +189,12 @@ header {
     font-weight: bold;
 }
 
-
+.btn-post {
+    background-color: var(--main-col);
+    padding: .3em .5em;
+    border: .125em solid var(--sec-col);
+    border-radius: .5em;
+}
 
 
 .btn-arr-dwn {
@@ -202,6 +207,8 @@ header {
 
 .push-add {
     height: 1.2em;
+    margin-right: .3em;
+    vertical-align:middle;
 }
 
 
