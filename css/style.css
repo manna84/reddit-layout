@@ -126,3 +126,10 @@ header {
     vertical-align: middle;
 }
 
+/*-----LOWER BANNER------*/
+
+.nav-low {
+    background-color: var(--sec-col);
+}
+
+
