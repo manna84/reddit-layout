@@ -130,6 +130,8 @@ header {
     vertical-align: middle;
 }
 
+
+
 /*-----LOWER BANNER------*/
 
 .nav-low {
@@ -169,6 +171,12 @@ header {
     display: flex;
 }
 
+.btn-arr-dwn {
+    height: 1em;
+}
 
+.btn-add {
+    height: 1.2em;
+}
 
 
