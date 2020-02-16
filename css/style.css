@@ -172,6 +172,10 @@ header {
     justify-content: space-between;
 }
 
+.ban-trend a {
+    text-decoration: none;
+}
+
 .btn-arr-dwn {
     height: 1em;
 }
