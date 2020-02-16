@@ -2,6 +2,7 @@
     --main-col: #FEC61B;
     --sec-col:#8800FF;
     --def-col:#fff;
+    --btn-hov:#e5ad01;
 }
 
 /*-----HEADER----*/
@@ -78,6 +79,12 @@ header {
 .btn-log {
     margin-right: .75em;
     color: var(--main-col);
+}
+
+.btn-log:hover {
+    background-color: var(--main-col);
+    color: var(--def-col);
+    transition: background-color .2s, color .2s;
 }
 
 .btn-sign {
