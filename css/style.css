@@ -236,6 +236,10 @@ header {
 
 .box-chanl a:first-child {
     margin-top: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+
 }
 
 
@@ -243,6 +247,15 @@ header {
     display: flex;
 }
 
-.box-chanl ul a {
+.box-chanl a:last-child {
     text-decoration: none;
+    font-weight: bold;
+    font-size: .7em;
+}
+
+span {
+    font-size: .9em;
+    font-weight: bold;
+    color:#555;
+    margin-left: .6em;
 }
