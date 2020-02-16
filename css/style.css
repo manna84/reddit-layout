@@ -77,5 +77,10 @@ header {
 
 .btn-log {
     margin-right: .75em;
+    color: var(--main-col);
+}
+
+.btn-sign {
+    background-color: var(--main-col);
 }
 
