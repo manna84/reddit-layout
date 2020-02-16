@@ -181,6 +181,10 @@ header {
     border-radius: .5em;
 }
 
+.ban-trend ul {
+    display: flex;
+}
+
 .btn-arr-dwn {
     height: 1em;
 }
