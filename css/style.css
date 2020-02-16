@@ -5,37 +5,11 @@
     --btn-hov: #e5ad01;
 }
 
-/*-----HEADER----*/
-
-header {
-    background-image: url(img/background-main.jpg);
-    height: 60vh;
-    background-position: center;
-    background-size: cover;
-}
-
-.main-banner-top {
-    display: flex;
-    justify-content: space-between;
-}
-
-.main-banner-top ul {
-    display: flex;
-    margin-right: 1.250em;
-}
-
 /*-----REUSE ITEM----*/
 
 .row {
     max-width: 1200px;
     margin: 0 auto;
-}
-
-/*-----Logo----*/
-
-.main-logo {
-    height: 2.5em;
-    margin-top: .5em;
 }
 
 /*-----BUTTONS-----*/
@@ -99,4 +73,31 @@ header {
     border-color: var(--btn-hov);
     transition: background-color .2s, color .2s;
 }
+
+.main-banner-top ul {
+    display: flex;
+    margin-right: 1.250em;
+}
+
+
+/*-----HEADER----*/
+
+header {
+    background-image: url(img/background-main.jpg);
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-banner-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-logo {
+    height: 2.5em;
+    margin-top: .5em;
+}
+
+
 
