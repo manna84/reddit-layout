@@ -18,6 +18,10 @@
     margin: 0 auto;
 }
 
+section {
+    padding: 2.5em 0;
+}
+
 /*-----HEADINGS-----*/
 
 h1 {
@@ -156,8 +160,9 @@ header {
     transition: border-bottom .2s, color .2s;
 }
 
-
-
+/*-------------------------------------*/
+/*-----SECTION----*/
+/*-------------------------------------*/
 
 
 
