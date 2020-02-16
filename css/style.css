@@ -22,11 +22,13 @@
 
 h1 {
     font-family: 'Anton', sans-serif;
-    font-size: 3em;
+    font-size: 3.5em;
     text-align: center;
-    margin-top: 2em;
+    margin-top: 1.5em;
     color: #d30000;
     text-transform: uppercase;
+    word-spacing: .125em;
+    letter-spacing: .01em
 }
 
 /*-----BUTTONS-----*/
