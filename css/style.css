@@ -152,6 +152,7 @@ header {
 .nav-low ul li a:hover {
     color: var(--def-col);
     border-bottom: .125em solid var(--main-col);
+    transition: border-bottom .2s, color .2s;
 }
 
 
