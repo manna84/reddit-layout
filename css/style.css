@@ -35,6 +35,12 @@ h1 {
     letter-spacing: .01em
 }
 
+h3 {
+
+    font-size: .8em;
+    margin: .3em 0;
+}
+
 /*-----BUTTONS-----*/
 
 .block-search {
@@ -153,12 +159,12 @@ header {
     font-size: 1.1em;
     font-weight: 300;
     padding-bottom: .2em;
-    border-bottom: .125em solid transparent;
+    border-bottom: .1em solid transparent;
 }
 
 .nav-low ul li a:hover {
     color: var(--main-col);
-    border-bottom: .125em solid var(--main-col);
+    border-bottom: .1em solid var(--main-col);
     transition: border-bottom .2s, color .2s;
 }
 
@@ -212,4 +218,12 @@ header {
     padding-bottom: .1em;
 }
 
+/*-------------------------------------*/
+/*-----SECTION MAIN POST----*/
+/*-------------------------------------*/
 
+/*------FIRST POST-----*/
+
+.post-upvt img {
+    height: 1.5em;
+}
