@@ -230,5 +230,11 @@ header {
 
 .box-chanl {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    background-color: aqua;
 }
+
+.box-chanl a:first-child {
+    margin-top: 1em;
+}
+
