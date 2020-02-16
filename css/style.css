@@ -238,3 +238,11 @@ header {
     margin-top: 1em;
 }
 
+
+.box-chanl ul {
+    display: flex;
+}
+
+.box-chanl ul a {
+    text-decoration: none;
+}
