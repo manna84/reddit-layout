@@ -133,12 +133,18 @@ header {
 }
 
 .nav-low ul {
-    list-style: none;
     display: flex;
-    padding: 1em;
+    padding: 1em 15em 1em 15em;
     margin-top: 4em;
-    justify-content: center;
+    justify-content: space-around;
 }
+
+.nav-low ul li a {
+    text-decoration: none;
+    color: var(--def-col);
+}
+
+
 
 
 
