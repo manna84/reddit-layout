@@ -1,3 +1,9 @@
+/*-----FONTS----*/
+
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+/*----ROOTS----*/
+
 :root {
     --main-col: #FEC61B;
     --sec-col: #8800FF;
@@ -15,8 +21,11 @@
 /*-----HEADINGS-----*/
 
 h1 {
+    font-family: 'haettenshweiler';
     text-align: center;
     margin-top: 3em;
+    color: #d30000;
+    text-transform: uppercase;
 }
 
 /*-----BUTTONS-----*/
