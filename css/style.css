@@ -178,6 +178,7 @@ header {
     background-color: var(--sec-col);
     border: .125em solid var(--sec-col);
     border-radius: .5em;
+    padding: .125em 1em 1em 1em;
 }
 
 .ban-trend ul {
