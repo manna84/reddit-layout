@@ -167,7 +167,6 @@ header {
 /*-------------------------------------*/
 
 .ban-trend {
-    background-color: red;
     display: flex;
     justify-content: space-between;
 }
@@ -189,11 +188,24 @@ header {
     text-decoration: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 .btn-arr-dwn {
     height: 1em;
+    margin-right: 2em
 }
 
-.btn-add {
+.push-add {
     height: 1.2em;
 }
 
