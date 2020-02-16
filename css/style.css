@@ -22,8 +22,9 @@
 
 h1 {
     font-family: 'Anton', sans-serif;
+    font-size: 3em;
     text-align: center;
-    margin-top: 3em;
+    margin-top: 2em;
     color: #d30000;
     text-transform: uppercase;
 }
