@@ -164,7 +164,10 @@ header {
 /*-----SECTION----*/
 /*-------------------------------------*/
 
-
+.ban-trend {
+    background-color: red;
+    display: flex;
+}
 
 
 
