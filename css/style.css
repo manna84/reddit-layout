@@ -130,6 +130,7 @@ header {
 
 .nav-low {
     background-color: var(--sec-col);
+    border-radius: .5em;
 }
 
 .nav-low ul {
@@ -141,7 +142,7 @@ header {
 
 .nav-low ul li a {
     text-decoration: none;
-    color: var(--main-col);
+    color: var(--def-col);
     text-transform: uppercase;
     font-size: 1.1em;
     font-weight: 300;
@@ -150,7 +151,7 @@ header {
 }
 
 .nav-low ul li a:hover {
-    color: var(--def-col);
+    color: var(--main-col);
     border-bottom: .125em solid var(--main-col);
     transition: border-bottom .2s, color .2s;
 }
