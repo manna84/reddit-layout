@@ -124,7 +124,7 @@ header {
     margin-top: .5em;
 }
 
-.arrow-down {
+.btn-arr-solid {
     height: 30px;
     margin-left: 1em;
     vertical-align: middle;
@@ -168,6 +168,7 @@ header {
     background-color: red;
     display: flex;
 }
+
 
 
 
