@@ -121,5 +121,6 @@ header {
 .arrow-down {
     height: 30px;
     margin-left: 1em;
+    vertical-align: middle;
 }
 
