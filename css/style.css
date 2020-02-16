@@ -186,18 +186,18 @@ header {
 
 .ban-trend ul a {
     text-decoration: none;
+    font-weight: bold;
 }
 
 
 
 
-
-
-
-
 .btn-arr-dwn {
-    height: 1em;
-    margin-right: 2em
+    height: 1.3em;
+    margin: 0 2em 0 .5em;
+    background-color: var(--main-col);
+    padding: .2em .4em;
+    border-radius: .5em
 }
 
 .push-add {
