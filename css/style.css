@@ -35,6 +35,7 @@ header {
 
 .main-logo {
     height: 2.5em;
+    margin-top: .5em;
 }
 
 /*-----BUTTONS-----*/
@@ -96,6 +97,6 @@ header {
 .btn-sign:hover {
     background-color: var(--btn-hov);
     border-color: var(--btn-hov);
-    transition: background-color .2s, color .2s
+    transition: background-color .2s, color .2s;
 }
 
