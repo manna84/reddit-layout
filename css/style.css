@@ -227,3 +227,8 @@ header {
 .post-upvt img {
     height: 1.5em;
 }
+
+.box-chanl {
+    display: flex;
+    justify-content: space-between
+}
