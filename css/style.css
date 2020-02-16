@@ -141,10 +141,15 @@ header {
 
 .nav-low ul li a {
     text-decoration: none;
-    color: var(--def-col);
+    color: var(--main-col);
     text-transform: uppercase;
     font-size: 1.1em;
     font-weight: 300;
+}
+
+.nav-low ul li a:hover {
+    color: var(--def-col);
+    border-bottom: .125em solid var(--main-col);
 }
 
 
