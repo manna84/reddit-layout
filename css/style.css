@@ -172,8 +172,13 @@ header {
     justify-content: space-between;
 }
 
-.ban-trend a {
+.trend-btn {
     text-decoration: none;
+    font-size: 1.1em;
+    color: var(--def-col);
+    background-color: --var(--sec-col);
+    border: .125em solid var(--sec-col);
+    border-radius: .5em;
 }
 
 .btn-arr-dwn {
