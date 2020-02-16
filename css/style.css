@@ -93,13 +93,10 @@ h1 {
     transition: background-color .2s, color .2s;
 }
 
-.main-banner-top ul {
-    display: flex;
-    margin-right: 1.250em;
-}
 
-
+/*-------------------------------------*/
 /*-----HEADER----*/
+/*-------------------------------------*/
 
 header {
     background-image: url(img/background-main.jpg);
@@ -111,6 +108,11 @@ header {
 .main-banner-top {
     display: flex;
     justify-content: space-between;
+}
+
+.main-banner-top ul {
+    display: flex;
+    margin-right: .1250em;
 }
 
 .main-logo {
