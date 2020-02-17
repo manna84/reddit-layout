@@ -260,10 +260,12 @@ span {
     margin-left: .6em;
 }
 
-btm-post {
+.btm-post {
     display: flex;
 }
 
 .btm-post img {
     height: 1em;
 }
+
+
