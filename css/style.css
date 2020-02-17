@@ -12,6 +12,7 @@
     --sml-col: #555;
     --top-brd-col: #c1c0c0;
     --shd-col: #acacac;
+    --pd-sz: .125em;
 }
 
 /*-----REUSE ITEM----*/
@@ -273,7 +274,7 @@ header {
     grid-row: 1/2;
     background-color: var(--def-col);
     border-top-right-radius: .5em;
-    padding: .125em .5em;
+    padding: var(--pd-sz) .5em;
 }
 
 .box-chanl a:first-child {
@@ -284,7 +285,7 @@ header {
 
 .box-chanl a:last-child {
     display: flex;
-    padding: .125em;
+    padding: var(--pd-sz);
     text-decoration: none;
     font-weight: bold;
     font-size: .7em;
@@ -295,7 +296,7 @@ span {
     font-weight: bold;
     color: var(--sml-col);
     margin-left: .6em;
-    padding: .125em;
+    padding: var(--pd-sz);
 
 }
 
@@ -316,17 +317,15 @@ span {
 /*---------------------------------------*/
 
 .comt-box {
-    display: flex;
-    justify-content: space-between;
     grid-column: 2/3;
     grid-row: 4/5;
+    display: flex;
+    justify-content: space-between;
     background-color:#fff;
     border-top: .03em solid var(--top-brd-col);
     border-radius: 0 0 .5em .5em;
-    box-shadow: 0 5px 5px var(--shd-col);
+    box-shadow: 0 .313em .313em var(--shd-col);
 }
-
-
 
 .comt-box ul {
     display:flex;
