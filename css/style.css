@@ -48,6 +48,11 @@ h3 {
     margin: .3em 0;
 }
 
+h4 {
+    display: inline;
+    font-size: .7em
+}
+
 /*-----BUTTONS-----*/
 
 .block-search {
@@ -259,7 +264,7 @@ header {
     justify-content: space-between;
     grid-column: 2/3;
     grid-row: 1/2;
-    background-color: red;
+    background-color: var(--def-col);
     border-top-right-radius: .5em;
     padding: .125em .5em
 }
@@ -311,11 +316,7 @@ span {
     box-shadow: 0 5px 5px var(--shd-col);
 }
 
-.comt-box img {
-    height: 1.2em;
-    margin-right: .5em;
-    vertical-align: middle;
-}
+
 
 .comt-box ul:first-child {
     display:flex;
@@ -327,6 +328,16 @@ span {
     margin: 0 .8em;
     font-size: 1em;
     color: var(--sml-col);
+}
+
+.comt-box ul a:first-of-type {
+    margin-left: 0;
+}
+
+.comt-box img {
+    height: 1.2em;
+    margin-right: .5em;
+    vertical-align: middle;
 }
 
 .comt-box ul:last-child {
