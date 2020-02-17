@@ -75,6 +75,7 @@ h5 {
 
 h6 {
     margin: 1em 1em;
+    color: var(--shd-col);
 }
 
 /*-----BUTTONS-----*/
@@ -470,6 +471,7 @@ span:hover {
 .pop-comm {
     background-color: var(--def-col);
     padding-bottom: .1em;
+    border-radius: .5em;
 }
 
 .pop-comm img {
@@ -505,6 +507,10 @@ span:hover {
 
 .adv-box {
     background-color: var(--def-col);
+    border-radius: .5em;
 }
 
-.adv-box img {padding: .5em}
+.adv-box img {
+    padding: 0 .5em .5em .5em;
+
+}
