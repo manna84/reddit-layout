@@ -214,6 +214,11 @@ header {
     border-radius: .5em;
 }
 
+.btn-post:hover {
+    opacity: .8;
+    transition: opacity .2s;
+}
+
 
 .btn-arr-dwn {
     height: 1.3em;
@@ -267,6 +272,7 @@ header {
     background-color: var(--def-col);
     border-top-right-radius: .5em;
     padding: .125em .5em;
+    background-color: chartreuse
 }
 
 .box-chanl a:first-child {
@@ -300,7 +306,12 @@ span {
     grid-row: 2/4;
     background-color: var(--def-col);
     padding: 0 .5em;
+    background-color: aqua;
 
+}
+
+.cont-box p {
+    margin: 0;
 }
 
 /*---------------------------------------*/
