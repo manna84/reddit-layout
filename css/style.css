@@ -283,9 +283,8 @@ header {
 .main-grid-container {
     padding: 6.5em 0;
     display: grid;
-    grid-template-columns: 40em 30em;
+    grid-template-columns: 40em 21em;
     grid-template-rows: 60em auto;
-    overflow: hidden;
 }
 
 /*------FIRST POST-----*/
@@ -453,12 +452,15 @@ span:hover {
 /*-----SECTION COMMUNITY----*/
 /*--------------------------------------------------------------------*/
 
-.pop-comm ul li:first-of-type {
+.pop-comm ul li {
+    display: flex;
+    justify-content: space-between;
     background-color: aqua;
-    margin-top: 0;
 }
+
 
 
 .pop-comm img {
     height: 1.5em;
 }
+
