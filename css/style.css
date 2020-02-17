@@ -115,14 +115,7 @@ h6 {
     text-transform: uppercase;
 }
 
-.btn-bod {
-    text-decoration: none;
-    border: .125em solid var(--main-col);
-    border-radius: .438em;
-    color: var(--sec-col);
-    text-align: center;
 
-}
 
 .btn-log {
     margin-right: .75em;
@@ -147,10 +140,18 @@ h6 {
     transition: background-color .2s, color .2s;
 }
 
-.ld-btn {
+.btn-bod {
     display: block;
     text-decoration: none;
     background-color: var(--main-col);
+    border: .125em solid var(--main-col);
+    border-radius: .438em;
+    color: var(--sec-col);
+    text-align: center;
+
+}
+
+.ld-btn {
     width: 10em;
     margin: 2em auto;
     text-transform: uppercase;
@@ -159,6 +160,10 @@ h6 {
     padding: .25em;
     letter-spacing: .06em;
     box-shadow: .125em .125em .313em var(--shd-col);
+
+}
+
+.view-btn {
 
 }
 
@@ -460,6 +465,8 @@ span:hover {
 /*-----SECTION COMMUNITY----*/
 /*--------------------------------------------------------------------*/
 
+.pop-comm {background-color: var(--def-col);}
+
 .pop-comm img {
     height: 1.2em
 }
@@ -486,6 +493,8 @@ span:hover {
 .pop-comm ul li a img {
     margin-right: 1em;
 }
+
+
 
 /*---------------SECTION COMMUNITY---------------*/
 
