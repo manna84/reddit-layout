@@ -235,7 +235,6 @@ header {
 }
 
 .box-chanl a:first-child {
-    margin-top: 1em;
     text-decoration: none;
     font-weight: bold;
     font-size: 1em;
@@ -245,6 +244,7 @@ header {
 
 .box-chanl ul {
     display: flex;
+    margin: 0;
 }
 
 .box-chanl a:last-child {
@@ -294,18 +294,18 @@ span {
     grid-column: 1/2;
     grid-row: 1/3;
     background-color: red;
-    padding: .4em .5em
 }
 
 .box-chanl {
     grid-column: 2/3;
     grid-row: 1/2;
     background-color: gold;
+    padding: .4em .4em
 }
 
 .cont-box {
     grid-column: 2/3;
-    grid-row: 2/4;
+    grid-row: 3/4;
     background-color: palevioletred
 }
 
