@@ -44,6 +44,14 @@ h1 {
     letter-spacing: .01em
 }
 
+h2 {
+    position: absolute;
+    left: 40%;
+    color: var(--def-col);
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
 h3 {
 
     font-size: .8em;
@@ -422,5 +430,7 @@ span:hover {
 .main-comm {
     background-image: url(img/community-background.jpg);
     height: 13vh;
+    background-size: cover;
+    background-position: center;
 }
 
