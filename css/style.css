@@ -288,12 +288,14 @@ header {
 
 .box-chanl a:first-child:hover {
     color: var(--main-col);
+    transition: color .2s;
 }
 
 .box-chanl a:last-child {
     display: flex;
     padding: var(--pd-sz);
     text-decoration: none;
+    color: var(--sec-col);
     font-weight: bold;
     font-size: .7em;
 }
