@@ -31,6 +31,10 @@ body {
     background-color: palegreen;
 }
 
+.box {
+    margin: .5em 0 1em 0;
+}
+
 /*-----HEADINGS-----*/
 
 h1 {
@@ -351,7 +355,7 @@ span:hover {
     grid-row: 4/5;
     display: flex;
     justify-content: space-between;
-    background-color:#fff;
+    background-color: var(--def-col);
     border-top: .03em solid var(--top-brd-col);
     border-radius: 0 0 .5em .5em;
     box-shadow: 0 .313em .313em var(--shd-col);
