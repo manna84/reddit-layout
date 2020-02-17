@@ -98,6 +98,15 @@ h4 {
     text-transform: uppercase;
 }
 
+.btn-bod {
+    text-decoration: none;
+    border: .125em solid var(--main-col);
+    border-radius: .438em;
+    color: var(--sec-col);
+    text-align: center;
+
+}
+
 .btn-log {
     margin-right: .75em;
     color: var(--main-col);
@@ -124,9 +133,13 @@ h4 {
 .ld-btn {
     display: block;
     text-decoration: none;
+    background-color: var(--main-col);
     width: 10em;
-    text-align: center;
     margin: 2em auto;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: .25em
 }
 
 
