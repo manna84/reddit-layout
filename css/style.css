@@ -11,6 +11,7 @@
     --btn-hov: #e5ad01;
     --sml-col: #555;
     --top-brd-col: #c1c0c0;
+    --shd-col: #acacac;
 }
 
 /*-----REUSE ITEM----*/
@@ -25,7 +26,7 @@ section {
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: palegreen;
 }
 
 /*-----HEADINGS-----*/
@@ -294,6 +295,7 @@ span {
     grid-row: 2/4;
     background-color: var(--def-col);
     padding: 0 .5em 0 .5em;
+
 }
 
 /*---------------------------------------*/
@@ -306,6 +308,7 @@ span {
     background-color:#fff;
     border-top: .03em solid var(--top-brd-col);
     border-radius: 0 0 .5em .5em;
+    box-shadow: 0 5px 5px var(--shd-col);
 }
 
 .comt-box img {
