@@ -23,10 +23,6 @@
     margin: 0 auto;
 }
 
-section {
-    padding: 6.5em 0;
-}
-
 body {
     background-color: palegreen;
 }
@@ -270,6 +266,10 @@ header {
 /*-----SECTION MAIN POST----*/
 /*--------------------------------------------------------------------*/
 
+.main-grid {
+    padding: 6.5em 0;
+}
+
 /*------FIRST POST-----*/
 
 
@@ -415,6 +415,12 @@ span:hover {
     padding: .2em .5em;
 }
 
+/*--------------------------------------------------------------------*/
+/*-----SECTION MAIN COMM----*/
+/*--------------------------------------------------------------------*/
 
-
+.main-comm {
+    background-image: url(img/community-background.jpg);
+    height: 5vh;
+}
 
