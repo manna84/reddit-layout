@@ -470,6 +470,12 @@ span:hover {
 .pop-comm ul li a {
     padding: 1em 0;
     margin-left: 3em;
+    text-decoration: none;
+    color: var(--sml-col);
+}
+
+.pop-comm ul li a:hover {
+    color: var(--main-col);
 }
 
 .pop-comm ul li a img {
