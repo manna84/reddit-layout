@@ -257,6 +257,7 @@ header {
     grid-column: 2/3;
     grid-row: 1/2;
     background-color: var(--def-col);
+    border-top-right-radius: .5em;
     padding: .125em .5em
 }
 
