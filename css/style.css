@@ -330,6 +330,10 @@ span:hover {
 
 }
 
+.cont-box a {
+    text-decoration: none;
+}
+
 .cont-box p {
     margin: 0;
 }
