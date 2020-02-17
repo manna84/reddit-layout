@@ -210,6 +210,8 @@ header {
 
 .btn-post {
     background-color: var(--main-col);
+    text-decoration: none;
+    color: var(--sec-col);
     padding: .3em .5em;
     border-radius: .5em;
 }
@@ -329,12 +331,12 @@ span {
 
 
 
-.comt-box ul:first-child {
+.comt-box ul {
     display:flex;
     margin: .5em;
 }
 
-.comt-box ul a:first-of-type {
+.comt-box ul a {
     text-decoration: none;
     margin-right: .8em;
     font-size: 1em;
@@ -347,15 +349,13 @@ span {
     vertical-align: middle;
 }
 
-.comt-box ul:last-child {
-    margin: .5em
-}
-
-.comt-box ul:last-child a:last-of-type {
-    color: var(--sec-col);
-}
-
 .comt-box ul a:hover {
     color: var(--sec-col);
     transition: color .2s;
+}
+
+.comt-box a {
+    font-size: .9em;
+    margin: .4em;
+    padding: .2em .5em;
 }
