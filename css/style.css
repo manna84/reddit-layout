@@ -327,11 +327,17 @@ span:hover {
     grid-row: 2/4;
     background-color: var(--def-col);
     padding: 0 .5em;
-
+    border: .01em solid transparent;
 }
 
 .cont-box a {
     text-decoration: none;
+    color: var(--sml-col);
+}
+
+.cont-box:hover {
+    border: .01em solid var(--main-col);
+    transition: border .2s;
 }
 
 .cont-box p {
