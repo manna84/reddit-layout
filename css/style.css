@@ -104,9 +104,9 @@ h3 {
 }
 
 
-/*-------------------------------------*/
+/*--------------------------------------------------------------------*/
 /*-----HEADER----*/
-/*-------------------------------------*/
+/*--------------------------------------------------------------------*/
 
 header {
     background-image: url(img/background-main.jpg);
@@ -168,9 +168,9 @@ header {
     transition: border-bottom .2s, color .2s;
 }
 
-/*-------------------------------------*/
+/*--------------------------------------------------------------------*/
 /*-----SECTION----*/
-/*-------------------------------------*/
+/*--------------------------------------------------------------------*/
 
 .ban-trend {
     display: flex;
@@ -218,29 +218,48 @@ header {
     padding-bottom: .1em;
 }
 
-/*-------------------------------------*/
+/*--------------------------------------------------------------------*/
 /*-----SECTION MAIN POST----*/
-/*-------------------------------------*/
+/*--------------------------------------------------------------------*/
 
 /*------FIRST POST-----*/
+
+
+.post-subred-quote {
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 50px auto;
+    grid-template-rows: 40px 70px auto 40px;
+}
+
+.post-upvt {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-color: red;
+    padding: .5em;
+}
 
 .post-upvt img {
     height: 1.5em;
 }
 
+/*---------------------------------------*/
+
 .box-chanl {
     display: flex;
     justify-content: space-between;
     background-color: aqua;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: gold;
+    padding: .125em .5em
 }
 
 .box-chanl a:first-child {
     text-decoration: none;
     font-weight: bold;
     font-size: 1em;
-
 }
-
 
 .box-chanl ul {
     display: flex;
@@ -260,6 +279,31 @@ span {
     margin-left: .6em;
 }
 
+/*---------------------------------------*/
+
+.cont-box {
+    grid-column: 2/3;
+    grid-row: 2/4;
+    background-color: palevioletred;
+    padding: 0 .5em 0 .5em;
+}
+
+/*---------------------------------------*/
+
+.comt-box {
+    display: flex;
+    justify-content: space-between;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    background-color:forestgreen
+}
+
+.comt-box ul {
+        margin: .3em
+}
+
+/*---------------------------------------*/
+
 .btm-post {
     display: flex;
 }
@@ -277,48 +321,3 @@ span {
     text-decoration: none;
 }
 
-.comt-box {
-    display: flex;
-    justify-content: space-between;
-}
-
-.post-subred-quote {
-    background-color: antiquewhite;
-    display: grid;
-    grid-template-columns: 50px auto;
-    grid-template-rows: 40px 70px auto 40px;
-}
-
-.post-upvt {
-    grid-column: 1/2;
-    grid-row: 1/3;
-    background-color: red;
-    padding: .5em;
-}
-
-.box-chanl {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    background-color: gold;
-    padding: .125em .5em
-}
-
-.cont-box {
-    grid-column: 2/3;
-    grid-row: 2/4;
-    background-color: palevioletred
-}
-
-.comt-box {
-    grid-column: 2/3;
-    grid-row: 4/5;
-    background-color:forestgreen
-}
-
-.cont-box {
-    padding: 0 .5em 0 .5em;
-}
-
-.comt-box ul {
-        margin: .3em
-}
