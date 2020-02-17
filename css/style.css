@@ -54,8 +54,9 @@ h2 {
     height: 13vh;
     background-position: center;
     background-size: cover;
-    padding: 1em 1.8em;
+    padding: 0em 1.8em;
     margin-top: .4em;
+    margin-bottom: 0;
 }
 
 h3 {
@@ -145,26 +146,27 @@ h6 {
     text-decoration: none;
     background-color: var(--main-col);
     border: .125em solid var(--main-col);
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+    padding: .25em;
     border-radius: .438em;
     color: var(--sec-col);
     text-align: center;
+    width: 9em;
+    letter-spacing: .06em;
+
 
 }
 
 .ld-btn {
-    width: 10em;
     margin: 2em auto;
-    text-transform: uppercase;
-    font-size: 1.2em;
-    font-weight: bold;
-    padding: .25em;
-    letter-spacing: .06em;
     box-shadow: .125em .125em .313em var(--shd-col);
 
 }
 
 .view-btn {
-
+    margin: 1em auto;
 }
 
 
@@ -465,7 +467,10 @@ span:hover {
 /*-----SECTION COMMUNITY----*/
 /*--------------------------------------------------------------------*/
 
-.pop-comm {background-color: var(--def-col);}
+.pop-comm {
+    background-color: var(--def-col);
+    padding-bottom: .1em;
+}
 
 .pop-comm img {
     height: 1.2em
