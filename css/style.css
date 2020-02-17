@@ -54,6 +54,7 @@ h2 {
     background-position: center;
     background-size: cover;
     padding: 1em 1.4em;
+    margin-top: .4em;
 }
 
 h3 {
@@ -446,3 +447,16 @@ span:hover {
     margin: 0 1em;
 }
 
+/*--------------------------------------------------------------------*/
+/*-----SECTION COMMUNITY----*/
+/*--------------------------------------------------------------------*/
+
+.pop-comm ul li:first-of-type {
+    background-color: aqua;
+    margin-top: 0;
+}
+
+
+.pop-comm img {
+    height: 1.5em;
+}
