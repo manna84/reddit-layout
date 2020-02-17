@@ -476,10 +476,11 @@ span:hover {
 
 .pop-comm ul li a:hover {
     color: var(--main-col);
+    transition: color .2s;
 }
 
 .pop-comm ul li a img {
-    margin-right: 1em
+    margin-right: 1em;
 }
 
 
