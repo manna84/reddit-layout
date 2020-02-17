@@ -72,6 +72,10 @@ h5 {
     font-size: 1.2em
 }
 
+h6 {
+    margin: 1em 1em;
+}
+
 /*-----BUTTONS-----*/
 
 .block-search {
@@ -483,4 +487,10 @@ span:hover {
     margin-right: 1em;
 }
 
+/*---------------SECTION COMMUNITY---------------*/
 
+.adv-box {
+    background-color: var(--def-col);
+}
+
+.adv-box img {padding: .5em}
