@@ -244,10 +244,10 @@ header {
 /*------FIRST POST-----*/
 
 
-.post-subred-quote {
+.post-subred-1 {
     display: grid;
     grid-template-columns: 50px auto;
-    grid-template-rows: 40px 70px auto 50px;
+    grid-template-rows: 4fr 7fr auto 5fr;
 }
 
 /*---------------------------------------*/
