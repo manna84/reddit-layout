@@ -290,7 +290,7 @@ span {
 .cont-box {
     grid-column: 2/3;
     grid-row: 2/4;
-    background-color: palevioletred;
+    background-color: var(--def-col);
     padding: 0 .5em 0 .5em;
 }
 
@@ -301,11 +301,12 @@ span {
     justify-content: space-between;
     grid-column: 2/3;
     grid-row: 4/5;
-    background-color:forestgreen
+    background-color:forestgreen;
+    border-radius: 0 0 .5em .5em;
 }
 
 .comt-box ul {
-        margin: .3em
+        margin: 0 .5em 0 .5em;
 }
 
 /*---------------------------------------*/
