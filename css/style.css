@@ -275,7 +275,6 @@ span {
 
 .btm-post a {
     text-decoration: none;
-    margin-left: 1em;
 }
 
 .comt-box {
@@ -300,12 +299,12 @@ span {
     grid-column: 2/3;
     grid-row: 1/2;
     background-color: gold;
-    padding: .4em .4em
+    padding: .125em .5em
 }
 
 .cont-box {
     grid-column: 2/3;
-    grid-row: 3/4;
+    grid-row: 2/4;
     background-color: palevioletred
 }
 
