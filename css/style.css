@@ -263,3 +263,7 @@ span {
 btm-post {
     display: flex;
 }
+
+.btm-post img {
+    height: 1em;
+}
