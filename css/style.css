@@ -246,7 +246,7 @@ header {
 
 .post-subred-1 {
     display: grid;
-    grid-template-columns: 50px auto;
+    grid-template-columns: 3.125em auto;
     grid-template-rows: 4fr 7fr auto 5fr;
 }
 
@@ -279,15 +279,12 @@ header {
 .box-chanl a:first-child {
     text-decoration: none;
     font-weight: bold;
-    font-size: 1em;
-}
-
-.box-chanl ul {
-    display: flex;
-    margin: 0;
+    font-size: .9em;
 }
 
 .box-chanl a:last-child {
+    display: flex;
+    padding: .125em;
     text-decoration: none;
     font-weight: bold;
     font-size: .7em;
@@ -298,6 +295,8 @@ span {
     font-weight: bold;
     color: var(--sml-col);
     margin-left: .6em;
+    padding: .125em;
+
 }
 
 /*---------------------------------------*/
@@ -358,6 +357,6 @@ span {
 
 .comt-box a {
     font-size: .9em;
-    margin: .4em;
+    margin: .4em 1em .4em 0;
     padding: .2em .5em;
 }
