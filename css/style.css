@@ -293,5 +293,19 @@ span {
 .post-upvt {
     grid-column: 1/2;
     grid-row: 1/3;
+}
 
+.box-chanl {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.cont-box {
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+
+.comt-box {
+    grid-column: 2/3;
+    grid-row: 4/5;
 }
