@@ -266,7 +266,7 @@ header {
     grid-row: 1/2;
     background-color: var(--def-col);
     border-top-right-radius: .5em;
-    padding: .125em .5em
+    padding: .125em .5em;
 }
 
 .box-chanl a:first-child {
@@ -299,7 +299,7 @@ span {
     grid-column: 2/3;
     grid-row: 2/4;
     background-color: var(--def-col);
-    padding: 0 .5em 0 .5em;
+    padding: 0 .5em;
 
 }
 
