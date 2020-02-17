@@ -334,15 +334,11 @@ span {
     margin: .5em;
 }
 
-.comt-box ul a {
+.comt-box ul a:first-of-type {
     text-decoration: none;
-    margin: 0 .8em;
+    margin-right: .8em;
     font-size: 1em;
     color: var(--sml-col);
-}
-
-.comt-box ul a:first-of-type {
-    margin-left: 0;
 }
 
 .comt-box img {
@@ -355,4 +351,11 @@ span {
     margin: .5em
 }
 
+.comt-box ul:last-child a:last-of-type {
+    color: var(--sec-col);
+}
 
+.comt-box ul a:hover {
+    color: var(--sec-col);
+    transition: color .2s;
+}
