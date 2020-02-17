@@ -264,10 +264,21 @@ span {
     display: flex;
 }
 
+.btm-post li:last-child {
+    display: flex;
+    justify-content: space-between
+}
+
 .btm-post img {
     height: 1em;
 }
 
 .btm-post a {
     text-decoration: none;
+    margin-left: 1em;
+}
+
+.comt-box {
+    display: flex;
+    justify-content: space-between;
 }
