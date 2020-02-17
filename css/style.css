@@ -282,3 +282,16 @@ span {
     display: flex;
     justify-content: space-between;
 }
+
+.post-subred-quote {
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 50px auto;
+    grid-template-rows: 40px 70px auto 40px;
+}
+
+.post-upvt {
+    grid-column: 1/2;
+    grid-row: 1/3;
+
+}
