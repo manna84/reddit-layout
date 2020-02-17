@@ -13,6 +13,7 @@
     --top-brd-col: #c1c0c0;
     --shd-col: #acacac;
     --pd-sz: .125em;
+    --upt-col: #b41313;
 }
 
 /*-----REUSE ITEM----*/
@@ -300,6 +301,11 @@ header {
     font-size: .7em;
 }
 
+.box-chanl a:last-child:hover {
+    color: var(--upt-col);
+    transition: color .2s;
+}
+
 span {
     font-size: .9em;
     font-weight: bold;
@@ -307,6 +313,11 @@ span {
     margin-left: .6em;
     padding: var(--pd-sz);
 
+}
+
+span:hover {
+    color: var(--upt-col);
+    transition: color .2s;
 }
 
 /*---------------------------------------*/
