@@ -116,14 +116,18 @@ h6 {
     text-transform: uppercase;
 }
 
+.btn:hover {
+    background-color: var(--btn-hov);
+    border-color: var(--btn-hov);
+    transition: background-color .2s, color .2s;
+}
+
 .btn-log {
     margin-right: .8em;
     color: var(--main-col);
 }
 
 .btn-log:hover {
-    background-color: var(--btn-hov);
-    border-color: var(--btn-hov);
     color: var(--sec-col);
     transition: background-color .2s, color .2s;
 }
@@ -131,12 +135,6 @@ h6 {
 .btn-sign {
     background-color: var(--main-col);
     color: var(--sec-col);
-}
-
-.btn-sign:hover {
-    background-color: var(--btn-hov);
-    border-color: var(--btn-hov);
-    transition: background-color .2s, color .2s;
 }
 
 .btn-bod {
