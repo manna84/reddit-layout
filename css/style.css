@@ -39,7 +39,7 @@ h1 {
     font-size: 3.5em;
     text-align: center;
     margin-top: 1.5em;
-    color: #d30000;
+    color: #e62d2d;
     text-transform: uppercase;
     word-spacing: .125em;
     letter-spacing: .01em
@@ -205,6 +205,7 @@ header {
 .nav-low {
     background-color: var(--sec-col);
     border-radius: .5em;
+    margin-top: 15.5em;;
 }
 
 .nav-low ul {
