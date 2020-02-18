@@ -116,10 +116,8 @@ h6 {
     text-transform: uppercase;
 }
 
-
-
 .btn-log {
-    margin-right: .75em;
+    margin-right: .8em;
     color: var(--main-col);
 }
 
