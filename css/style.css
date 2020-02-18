@@ -78,7 +78,7 @@ h6 {
     color: var(--shd-col);
 }
 
-/*-----BUTTONS-----*/
+/*------SEARCH BAR------*/
 
 .block-search {
     display: flex;
@@ -103,11 +103,15 @@ h6 {
     cursor: pointer;
 }
 
+/*----------------------------------------*/
+/*-----BUTTONS-----*/
+/*----------------------------------------*/
+
 .btn {
     text-decoration: none;
-    border: .125em solid var(--main-col);
-    border-radius: 12.5em;
-    padding: .125em 1em;
+    border: .1em solid var(--main-col);
+    border-radius: 10em;
+    padding: .2em 1.1em;
     color: var(--def-col);
     text-transform: uppercase;
 }
