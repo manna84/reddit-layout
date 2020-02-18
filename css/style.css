@@ -81,14 +81,14 @@ h6 {
 /*-----BUTTONS-----*/
 
 .block-search {
-    margin-right: 2em;
     display: flex;
+    margin-right: 2em;
 }
 
 .bar-search {
-    border: .125em solid var(--main-col);
+    border: .1em solid var(--main-col);
     border-right: none;
-    padding: .125em 0 .125em .5em;
+    padding: .1em 0 .1em .8em;
     border-radius: 12.5em 0  0 12.5em;
 }
 
@@ -189,7 +189,7 @@ header {
 
 .main-banner-top ul {
     display: flex;
-    margin-right: .1250em;
+    margin-right: .125em;
 }
 
 .main-logo {
