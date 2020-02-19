@@ -108,13 +108,13 @@ h6 {
 /*----------------------------------------*/
 
 .btn {
-    text-decoration: none;
     border: .1em solid var(--main-col);
     border-radius: 10em;
+    text-decoration: none;
     padding: .2em 1.1em;
-    color: var(--def-col);
     text-transform: uppercase;
 }
+
 
 .btn:hover {
     background-color: var(--btn-hov);
@@ -125,6 +125,7 @@ h6 {
 .btn-log {
     margin-right: .8em;
     color: var(--main-col);
+    background-color: var(--def-col);
 }
 
 .btn-log:hover {
@@ -134,7 +135,12 @@ h6 {
 
 .btn-sign {
     background-color: var(--main-col);
+    color: var(--def-col);
+}
+
+.btn-sign:hover {
     color: var(--sec-col);
+    transition: background-color .2s, color .2s;
 }
 
 .btn-bod {
