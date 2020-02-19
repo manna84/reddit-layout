@@ -255,6 +255,7 @@ h6 {
     background-color: var(--sec-col);
     border: .125em solid var(--sec-col);
     border-radius: .5em;
+    margin: 1em 0;
 }
 
 .ban-trend ul {
