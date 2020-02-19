@@ -247,18 +247,14 @@ h6 {
 .ban-trend {
     display: flex;
     justify-content: space-between;
-    margin: 0 24.8em 0 6.5em;
+    max-width: 39em;
 }
 
 .trend-btn {
-    text-decoration: none;
-    font-size: 1.1em;
     color: var(--def-col);
     background-color: var(--sec-col);
     border: .125em solid var(--sec-col);
     border-radius: .5em;
-    margin: 1em 0;
-    padding: .125em 1em;
 }
 
 .ban-trend ul {
