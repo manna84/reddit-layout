@@ -216,31 +216,29 @@ h6 {
 /*-----LOWER BANNER------*/
 
 .nav-low {
-    background-color: var(--sec-col);
-    border-radius: .5em;
-    margin-top: 15.5em;;
+    background-color: var(--main-col);
+    border-radius: 0 0 .5em .5em;
 }
 
 .nav-low ul {
     display: flex;
-    padding: 1em 12em 1em 12em;
-    margin-top: 4em;
+    padding: 1em 12em;
+    margin: 0 !important;
     justify-content: space-around;
 }
 
 .nav-low ul li a {
     text-decoration: none;
-    color: var(--def-col);
+    color: var(--sec-col);
     text-transform: uppercase;
     font-size: 1.1em;
-    font-weight: 300;
     padding-bottom: .2em;
     border-bottom: .1em solid transparent;
 }
 
 .nav-low ul li a:hover {
-    color: var(--main-col);
-    border-bottom: .1em solid var(--main-col);
+    color: var(--def-col);
+    border-bottom: .1em solid var(--def-col);
     transition: border-bottom .2s, color .2s;
 }
 
