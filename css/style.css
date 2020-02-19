@@ -317,7 +317,6 @@ h6 {
 /*--------------------------------------------------------------------*/
 
 .main-grid-container {
-    padding: 6.5em 0;
     display: grid;
     grid-template-columns: 40em 21em;
     grid-template-rows: 60em auto;
