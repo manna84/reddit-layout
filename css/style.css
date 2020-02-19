@@ -35,14 +35,20 @@ body {
 /*-----HEADINGS-----*/
 
 h1 {
+    position: absolute;
+    content: "";
+    top: 1%;
+    left: 15%;
     font-family: 'Anton', sans-serif;
     font-size: 3.5em;
     text-align: center;
     margin-top: 1.5em;
-    color: #e62d2d;
+    color: #bc1717;
     text-transform: uppercase;
     word-spacing: .125em;
-    letter-spacing: .01em
+    letter-spacing: .01em;
+
+
 }
 
 h2 {
@@ -203,7 +209,9 @@ h6 {
     vertical-align: middle;
 }
 
-
+.section-trend {
+    position: relative;
+}
 
 /*-----LOWER BANNER------*/
 
