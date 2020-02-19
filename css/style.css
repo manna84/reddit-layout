@@ -179,11 +179,12 @@ h6 {
 }
 
 .push-add {
-    height: 1em;
+    height: 1.2em;
     margin-right: .3em;
     vertical-align:middle;
     padding-bottom: .1em;
 }
+
 
 /*------ENTER SUBREDDIT------*/
 
@@ -193,6 +194,22 @@ h6 {
     padding: .7em;
     border-radius: .5em 0  0 .5em;
     width: 32em;
+}
+
+.btn-sub {
+    width: 5.5em;
+    border: .08em solid var(--main-col);
+    border-radius: 0 .5em .5em 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--def-col);
+    background: var(--main-col);
+    cursor: pointer;
+}
+
+.btn-sub:hover {
+    opacity: .7;
+    transition: opacity .2s;
 }
 
 /*--------------------------------------------------------------------*/
