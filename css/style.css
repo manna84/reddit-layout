@@ -6,7 +6,7 @@
 
 :root {
     --main-col: #FEC61B;
-    --sec-col: #8800FF;
+    --sec-col: #403254;
     --def-col: #fff;
     --btn-hov: #e5ad01;
     --sml-col: #555;
@@ -178,6 +178,7 @@ header {
 }
 
 .main-banner-top {
+    background-color: #403254;
     display: flex;
     justify-content: space-between;
 }
