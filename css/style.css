@@ -84,30 +84,6 @@ h6 {
     color: var(--shd-col);
 }
 
-/*------SEARCH BAR------*/
-
-.block-search {
-    display: flex;
-    margin-right: 2em;
-}
-
-.bar-search {
-    border: .08em solid var(--main-col);
-    border-right: none;
-    padding: .1em 0 .1em .8em;
-    border-radius: 10em 0  0 10em;
-}
-
-.btn-search {
-    width: 1.8em;
-    height: 1.8em;
-    border: .08em solid var(--main-col);
-    border-radius: 0 10em 10em 0;
-    font-size: 1em;
-    padding-bottom: .3em;
-    background: var(--main-col);
-    cursor: pointer;
-}
 
 /*----------------------------------------*/
 /*-----BUTTONS-----*/
@@ -177,6 +153,47 @@ h6 {
     margin: 1em auto;
 }
 
+/*------SEARCH BAR------*/
+
+.block-search {
+    display: flex;
+    margin-right: 2em;
+}
+
+.bar-search {
+    border: .08em solid var(--main-col);
+    border-right: none;
+    padding: .1em 0 .1em .8em;
+    border-radius: 10em 0  0 10em;
+}
+
+.btn-search {
+    width: 1.8em;
+    height: 1.8em;
+    border: .08em solid var(--main-col);
+    border-radius: 0 10em 10em 0;
+    font-size: 1em;
+    padding-bottom: .3em;
+    background: var(--main-col);
+    cursor: pointer;
+}
+
+.push-add {
+    height: 1em;
+    margin-right: .3em;
+    vertical-align:middle;
+    padding-bottom: .1em;
+}
+
+/*------ENTER SUBREDDIT------*/
+
+.bar-post {
+    border: .08em solid var(--main-col);
+    border-right: none;
+    padding: .7em;
+    border-radius: .5em 0  0 .5em;
+    width: 32em;
+}
 
 /*--------------------------------------------------------------------*/
 /*-----HEADER----*/
@@ -248,6 +265,13 @@ h6 {
     display: flex;
     justify-content: space-between;
     max-width: 39em;
+    margin: 2em 0;
+}
+
+.ban-trend a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
 }
 
 .trend-btn {
@@ -258,42 +282,17 @@ h6 {
     margin: 1em 0;
 }
 
-.ban-trend ul {
-    display: flex;
-}
-
-.ban-trend ul a {
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.btn-post {
-    background-color: var(--main-col);
-    text-decoration: none;
+.ban-trend a:last-child {
+    margin:auto 0;
     color: var(--sec-col);
-    padding: .3em .5em;
-    border-radius: .5em;
 }
-
-.btn-post:hover {
-    opacity: .8;
-    transition: opacity .2s;
-}
-
 
 .btn-arr-dwn {
     height: 1.3em;
-    margin: 0 2em 0 .5em;
+    margin-left: 1em;
     background-color: var(--main-col);
     padding: .2em .4em;
-    border-radius: .5em
-}
-
-.push-add {
-    height: 1em;
-    margin-right: .3em;
-    vertical-align:middle;
-    padding-bottom: .1em;
+    border-radius: .5em;
 }
 
 /*--------------------------------------------------------------------*/
