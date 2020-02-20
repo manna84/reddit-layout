@@ -29,7 +29,7 @@ body {
 }
 
 .box {
-    margin: .5em 0 1em 0;
+    margin: .5em 0 1.5em 0;
 }
 
 .ban-box {
@@ -64,8 +64,9 @@ h2 {
     height: 13vh;
     background-position: center;
     background-size: cover;
-    padding: 1em 1.8em;
+    padding: 1.8em;
     margin-top: .4em;
+    border-radius: .5em .5em 0 0;
 }
 
 h3 {
@@ -128,31 +129,38 @@ h6 {
     transition: background-color .2s, color .2s;
 }
 
+/*-----------SOLID BIG BUTTONS----------*/
+
 .btn-bod {
-    display: block;
     text-decoration: none;
+}
+
+.btn-bod button {
+    display: block;
     background-color: var(--main-col);
     border: .125em solid var(--main-col);
     text-transform: uppercase;
-    font-size: 1em;
     font-weight: bold;
+    font-size: 1em;
     padding: .25em;
-    border-radius: .438em;
+    border-radius: .5em;
     color: var(--sec-col);
-    text-align: center;
     width: 9em;
     letter-spacing: .06em;
-
-
 }
 
-.ld-btn {
+.btn-bod button:hover {
+    opacity: .7;
+    transition: opacity .2s;
+}
+
+.ld-btn button{
     margin: 2em auto;
     box-shadow: .125em .125em .313em var(--shd-col);
 
 }
 
-.view-btn {
+.view-btn button {
     margin: 1em auto;
 }
 
@@ -490,6 +498,7 @@ h6 {
     background-color: var(--def-col);
     padding-bottom: .1em;
     border-radius: .5em;
+    box-shadow: 0 .313em .313em var(--shd-col);
 }
 
 .pop-comm img {
@@ -527,6 +536,7 @@ h6 {
 .adv-box {
     background-color: var(--def-col);
     border-radius: .5em;
+    box-shadow: 0 .313em .313em var(--shd-col);
 }
 
 .adv-box img {
@@ -545,5 +555,4 @@ footer {
 footer nav {
     display: flex;
     justify-content: space-between;
-
 }
