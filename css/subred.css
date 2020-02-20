@@ -67,6 +67,41 @@ h6 {
     color: var(--shd-col);
 }
 
+/*-----------SOLID BIG BUTTONS----------*/
+
+.btn-bod {
+    text-decoration: none;
+}
+
+.btn-bod {
+    display: block;
+    background-color: var(--main-col);
+    border: .125em solid var(--main-col);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    padding: .25em;
+    border-radius: .5em;
+    color: var(--sec-col);
+    width: 9em;
+    letter-spacing: .06em;
+}
+
+.btn-bod:hover {
+    opacity: .7;
+    transition: opacity .2s;
+}
+
+.ld-btn {
+    margin: 2em auto;
+    box-shadow: .125em .125em .313em var(--shd-col);
+}
+
+.view-btn {
+    margin: 1em auto;
+}
+
+
 /*--------------------------------------------------------------------*/
 /*-----HEADER----*/
 /*--------------------------------------------------------------------*/
@@ -227,7 +262,7 @@ footer p {
     grid-template-rows: 2em 3.5em auto 2.5em;
 }
 
-.post-subred-1:last-child {
+.post-subred-1:last-child:last-child {
     margin-bottom: 3em;
 }
 
@@ -236,13 +271,16 @@ footer p {
 
 .post-upvt {
     grid-column: 1/2;
-    grid-row: 1/3;
+    grid-row: 1/5;
     padding: .5em;
     background-color: var(--def-col);
-    border-radius: .5em 0 0 .5em;
 }
 
+.post-subred-1:first-of-type .post-upvt {
+    grid-row: 1/3;
+    border-radius: .5em 0 0 .5em;
 
+}
 
 .post-upvt img {
     height: 1.5em;
