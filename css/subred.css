@@ -258,3 +258,26 @@ footer p {
     color: var(--upt-col);
     transition: color .2s;
 }
+
+/*---------------CONTENT BOX------------------------*/
+
+.cont-box {
+    grid-column: 2/3;
+    grid-row: 2/4;
+    background-color: var(--def-col);
+    padding: 0 .5em;
+    border: .01em solid transparent;
+}
+
+.cont-box a {
+    color: var(--sml-col);
+}
+
+.cont-box:hover {
+    border: .01em solid var(--main-col);
+    transition: border .2s;
+}
+
+.cont-box p {
+    margin: 0;
+}
