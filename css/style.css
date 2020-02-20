@@ -563,9 +563,38 @@ h6 {
 
 footer {
     background-color: #4b4b4b;
+    padding: 2%;
 }
 
 footer nav {
     display: flex;
     justify-content: space-between;
 }
+
+footer ul {
+    display: flex;
+}
+
+
+footer a  {
+    text-decoration: none;
+    color: #bebebe;
+    margin-left: 2em;
+}
+
+footer a:hover {
+    color: var(--def-col);
+    transition: color .2s;
+}
+
+.fut-box nav ul:first-child li:first-child a:first-child {
+   margin-left: 0;
+}
+
+footer p {
+    color: #bebebe;
+    display: block;
+    text-align: center;
+    margin-top: 2em;
+}
+
