@@ -281,3 +281,44 @@ footer p {
 .cont-box p {
     margin: 0;
 }
+
+/*-----------------COMMENT BOX----------------------*/
+
+.comt-box {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--def-col);
+    border-top: .03em solid var(--top-brd-col);
+    border-radius: 0 0 .5em .5em;
+    box-shadow: 0 .313em .313em var(--shd-col);
+}
+
+.comt-box ul {
+    display:flex;
+    margin: .5em 0;
+}
+
+.comt-box ul a {
+    margin-right: .8em;
+    font-size: 1em;
+    color: var(--sml-col);
+}
+
+.comt-box a img {
+    height: 1.2em;
+    margin-right: .5em;
+    vertical-align: middle;
+}
+
+.comt-box ul a:hover {
+    opacity: .7;
+    transition: opacity .2s;
+}
+
+.comt-box a {
+    font-size: .9em;
+    margin: .4em 1em .4em 0;
+    padding: .2em .5em;
+}
