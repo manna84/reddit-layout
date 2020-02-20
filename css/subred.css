@@ -333,8 +333,7 @@ footer p {
     display: flex;
     justify-content: space-between;
     background-color: var(--def-col);
-    border-top: .03em solid var(--top-brd-col);
-    border-radius: 0 0 .5em .5em;
+    border: .03em solid var(--top-brd-col);
 }
 
 .user-comt-box ul {
@@ -372,7 +371,7 @@ footer p {
     border-right: none;
     padding: .7em;
     border-bottom-left-radius: .5em;
-    width: 28em;
+    width: 27.5em;
 }
 
 .comt-box .block-search {
