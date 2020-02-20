@@ -1,0 +1,19 @@
+/*--------------------------------------------------------------------*/
+/*-----HEADER----*/
+/*--------------------------------------------------------------------*/
+
+.main-banner-top {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--sec-col);
+}
+
+.main-banner-top ul {
+    display: flex;
+    margin-right: .125em;
+}
+
+.main-logo {
+    height: 2.5em;
+    margin-top: .5em;
+}
