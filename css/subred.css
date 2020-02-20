@@ -28,6 +28,10 @@ body {
     margin: .5em 0 1.5em 0;
 }
 
+.sub-box {
+    margin: 0;
+}
+
 /*-----HEADINGS-----*/
 
 h2 {
