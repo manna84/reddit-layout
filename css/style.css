@@ -31,6 +31,9 @@ body {
     margin: .5em 0 1em 0;
 }
 
+.ban-box {
+    background-color: var(--sec-col);
+}
 
 /*-----HEADINGS-----*/
 
