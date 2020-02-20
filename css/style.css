@@ -222,6 +222,8 @@ h6 {
     transition: opacity .2s;
 }
 
+
+
 /*--------------------------------------------------------------------*/
 /*-----HEADER----*/
 /*--------------------------------------------------------------------*/
@@ -372,7 +374,6 @@ h6 {
 }
 
 .box-chanl a:first-child {
-    text-decoration: none;
     font-weight: bold;
     font-size: .9em;
     color: var(--head-chl);
@@ -386,7 +387,6 @@ h6 {
 .box-chanl a:last-child {
     display: flex;
     padding: var(--pd-sz);
-    text-decoration: none;
     color: var(--sec-col);
     font-weight: bold;
     font-size: .7em;
@@ -422,7 +422,6 @@ h6 {
 }
 
 .cont-box a {
-    text-decoration: none;
     color: var(--sml-col);
 }
 
@@ -454,7 +453,6 @@ h6 {
 }
 
 .comt-box ul a {
-    text-decoration: none;
     margin-right: .8em;
     font-size: 1em;
     color: var(--sml-col);
@@ -475,6 +473,18 @@ h6 {
     font-size: .9em;
     margin: .4em 1em .4em 0;
     padding: .2em .5em;
+}
+
+/*------FOLLOW BUTTON------*/
+.comt-box a:last-of-type {
+    margin-bottom: 1;
+    padding-bottom: 1em;
+}
+
+.btn-post {
+    padding: .125em;
+    border-radius: .5em;
+    margin-bottom: 1em;
 }
 
 /*--------------------------------------------------------------------*/
@@ -516,17 +526,12 @@ h6 {
     border-bottom: .03em solid var(--shd-col);
 }
 
-.pop-comm a {
-    text-decoration: none;
-}
 
 .pop-comm ul li a {
     margin-left: 3em;
     color: var(--sml-col);
     padding: .8em 0;
 }
-
-
 
 .pop-comm ul li a:hover {
     color: var(--main-col);
