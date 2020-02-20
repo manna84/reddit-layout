@@ -457,8 +457,8 @@ h6 {
 }
 
 .comt-box ul a:hover {
-    color: var(--sec-col);
-    transition: color .2s;
+    opacity: .7;
+    transition: opacity .2s;
 }
 
 .comt-box a {
@@ -494,14 +494,14 @@ h6 {
 }
 
 .pop-comm img {
-    height: 1.2em
+    height: 1.9em;
 }
 
 .pop-comm ul li {
     display: flex;
     justify-content:flex-start;
     padding: 0 2em;
-    border-bottom:   .03em solid var(--shd-col);
+    border-bottom: .03em solid var(--shd-col);
 }
 
 .pop-comm ul li a {
