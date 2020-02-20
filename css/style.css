@@ -14,6 +14,7 @@
     --shd-col: #acacac;
     --pd-sz: .125em;
     --upt-col: #b41313;
+    --head-chl: #636ef2;
 }
 
 /*-----REUSE ITEM----*/
@@ -334,7 +335,7 @@ h6 {
     grid-template-rows: 2em 3.5em auto 2.5em;
 }
 
-/*---------------------------------------*/
+/*---------------UPVOTE SECTION-----------------*/
 
 .post-upvt {
     grid-column: 1/2;
@@ -348,13 +349,13 @@ h6 {
     height: 1.5em;
 }
 
-/*---------------------------------------*/
+/*---------------UPVOTE SECTION-----------------*/
 
 .box-chanl {
-    display: flex;
-    justify-content: space-between;
     grid-column: 2/3;
     grid-row: 1/2;
+    display: flex;
+    justify-content: space-between;
     background-color: var(--def-col);
     border-top-right-radius: .5em;
     padding: var(--pd-sz) .5em;
@@ -364,7 +365,7 @@ h6 {
     text-decoration: none;
     font-weight: bold;
     font-size: .9em;
-    color: var(--sec-col);
+    color: var(--head-chl);
 }
 
 .box-chanl a:first-child:hover {
@@ -386,7 +387,7 @@ h6 {
     transition: color .2s;
 }
 
-span {
+.past-time {
     font-size: .9em;
     font-weight: bold;
     color: var(--sml-col);
@@ -395,7 +396,7 @@ span {
 
 }
 
-span:hover {
+.past-time:hover {
     color: var(--upt-col);
     transition: color .2s;
 }
