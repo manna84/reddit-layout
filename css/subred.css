@@ -321,6 +321,46 @@ footer p {
     border-top: .03em solid var(--top-brd-col);
 }
 
+/*-----------------USER COMMENT BOX----------------------*/
+
+.user-comt-box {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--def-col);
+    border-top: .03em solid var(--top-brd-col);
+    border-radius: 0 0 .5em .5em;
+}
+
+.user-comt-box ul {
+    display:flex;
+    margin: .5em 0;
+}
+
+.user-comt-box ul a {
+    margin-right: .8em;
+    font-size: 1em;
+    color: var(--sml-col);
+}
+
+.user-comt-box a img {
+    height: 1.2em;
+    margin-right: .5em;
+    vertical-align: middle;
+}
+
+.user-comt-box ul a:hover {
+    opacity: .7;
+    transition: opacity .2s;
+}
+
+.user-comt-box a {
+    font-size: .9em;
+    margin: .4em 1em .4em 0;
+    padding: .2em .5em;
+}
+
 /*------ENTER SUBREDDIT------*/
 
 .bar-post {
