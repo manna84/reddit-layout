@@ -237,6 +237,8 @@ footer p {
     border-radius: .5em 0 0 .5em;
 }
 
+
+
 .post-upvt img {
     height: 1.5em;
 }
@@ -249,8 +251,11 @@ footer p {
     display: flex;
     justify-content: space-between;
     background-color: var(--def-col);
-    border-top-right-radius: .5em;
     padding: var(--pd-sz) .5em;
+}
+
+.post-subred-1:first-of-type .box-chanl {
+    border-top-right-radius: .5em;
 }
 
 .box-chanl a:first-child {
@@ -283,7 +288,6 @@ footer p {
     color: var(--sml-col);
     margin-left: .6em;
     padding: var(--pd-sz);
-
 }
 
 .past-time:hover {
