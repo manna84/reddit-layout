@@ -135,7 +135,7 @@ h6 {
     text-decoration: none;
 }
 
-.btn-bod button {
+.btn-bod {
     display: block;
     background-color: var(--main-col);
     border: .125em solid var(--main-col);
@@ -149,18 +149,17 @@ h6 {
     letter-spacing: .06em;
 }
 
-.btn-bod button:hover {
+.btn-bod:hover {
     opacity: .7;
     transition: opacity .2s;
 }
 
-.ld-btn button{
+.ld-btn {
     margin: 2em auto;
     box-shadow: .125em .125em .313em var(--shd-col);
-
 }
 
-.view-btn button {
+.view-btn {
     margin: 1em auto;
 }
 
@@ -331,6 +330,10 @@ h6 {
     display: grid;
     grid-template-columns: 40em 21em;
     grid-template-rows: 60em auto;
+}
+
+.main-grid-container a {
+    text-decoration: none;
 }
 
 /*------FIRST POST-----*/
@@ -513,12 +516,17 @@ h6 {
     border-bottom: .03em solid var(--shd-col);
 }
 
+.pop-comm a {
+    text-decoration: none;
+}
+
 .pop-comm ul li a {
     margin-left: 3em;
-    text-decoration: none;
     color: var(--sml-col);
     padding: .8em 0;
 }
+
+
 
 .pop-comm ul li a:hover {
     color: var(--main-col);
