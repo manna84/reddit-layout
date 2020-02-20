@@ -319,7 +319,6 @@ footer p {
     grid-row: 4/5;
     background-color: transparent;
     border-top: .03em solid var(--top-brd-col);
-    border-radius: 0 0 .5em .5em;
 }
 
 /*------ENTER SUBREDDIT------*/
@@ -328,14 +327,18 @@ footer p {
     border: .08em solid var(--main-col);
     border-right: none;
     padding: .7em;
-    border-radius: .5em 0  0 .5em;
-    width: 18em;
+    border-bottom-left-radius: .5em;
+    width: 28em;
+}
+
+.comt-box .block-search {
+    margin-right: 0;
 }
 
 .btn-sub {
-    width: 8em;
+    width: 7em;
     border: .08em solid var(--main-col);
-    border-radius: 0 .5em .5em 0;
+    border-bottom-right-radius: .5em;
     font-size: 1.2em;
     font-weight: bold;
     color: var(--def-col);
