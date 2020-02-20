@@ -24,6 +24,16 @@ body {
     background-color: rgba(206, 206, 206, 0.27);
 }
 
+.box {
+    margin: .5em 0 1.5em 0;
+}
+
+/*-----HEADINGS-----*/
+
+h3 {
+    font-size: .8em;
+    margin: .3em 0;
+}
 
 /*--------------------------------------------------------------------*/
 /*-----HEADER----*/
@@ -161,3 +171,90 @@ footer p {
     margin-top: 2em;
 }
 
+/*--------------------------------------------------------------------*/
+/*-----SECTION MAIN POST----*/
+/*--------------------------------------------------------------------*/
+
+.main-grid-container {
+    display: grid;
+    grid-template-columns: 40em 21em;
+    grid-template-rows: 60em auto;
+}
+
+
+.main-grid-container a {
+    text-decoration: none;
+}
+
+/*------FIRST POST-----*/
+
+
+.post-subred-1 {
+    display: grid;
+    grid-template-columns: 3.125em auto;
+    grid-template-rows: 2em 3.5em auto 2.5em;
+}
+
+/*---------------UPVOTE SECTION-----------------*/
+
+.post-upvt {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    padding: .5em;
+    background-color: var(--def-col);
+    border-radius: .5em 0 0 .5em;
+}
+
+.post-upvt img {
+    height: 1.5em;
+}
+
+/*---------------CHANNEL SECTION-----------------*/
+
+.box-chanl {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--def-col);
+    border-top-right-radius: .5em;
+    padding: var(--pd-sz) .5em;
+}
+
+.box-chanl a:first-child {
+    font-weight: bold;
+    font-size: .9em;
+    color: var(--head-chl);
+}
+
+.box-chanl a:first-child:hover {
+    color: var(--main-col);
+    transition: color .2s;
+}
+
+.box-chanl a:last-child {
+    display: flex;
+    padding: var(--pd-sz);
+    color: var(--sec-col);
+    font-weight: bold;
+    font-size: .7em;
+}
+
+.box-chanl a:last-child:hover {
+    color: var(--upt-col);
+    transition: color .2s;
+}
+
+.past-time {
+    font-size: .9em;
+    font-weight: bold;
+    color: var(--sml-col);
+    margin-left: .6em;
+    padding: var(--pd-sz);
+
+}
+
+.past-time:hover {
+    color: var(--upt-col);
+    transition: color .2s;
+}
