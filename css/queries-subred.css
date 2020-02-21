@@ -16,12 +16,8 @@
         padding: 0 1%;
     }
 
-    h1 {
-        left: 10%;
-    }
-
     h2 {
-        padding: 1.5em .1em;
+        padding: 1.8em 1em;
         font-size: 1em;
         border-radius: .5em .5em 0 0;
 }
