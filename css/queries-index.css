@@ -55,7 +55,7 @@
         padding: .5em;
 }
 
-   .section-main-comm, {
+   .section-main-comm {
         margin-left: 0;
 }
 
@@ -190,28 +190,23 @@
         display: grid;
         grid-template-columns: 0 21em;
         grid-template-rows: 2em 3.5em auto 2.5em;
-}
-
-    .cont-box a img {
-
     }
 
     h1 {
         left: 5%;
         font-size: 1.5em;
         margin-top: 1.5em;;
-}
+    }
      .nav-low ul  {
         font-size: .8em;
         padding: .5em 0;
         margin: 0 !important;
         justify-content: space-between;
-}
+    }
     .ban-trend {
         margin: .2em .2em;
         width: 20em;
-
-}
+    }
     .main-banner-top .block-search {
         visibility: hidden;
     }
@@ -222,7 +217,7 @@
     .btn-sub {
         width: 5.8em;
         border-radius: 0 .5em .5em 0;
-}
+    }
 
     iframe {
         height: 90%;
@@ -253,7 +248,10 @@
    .fut-box nav ul:first-child li:first-child a:first-child {
         margin-left: 1em;
 }
-    .main-logo {height: 2.5 em}
+    .main-logo {
+        height: 2.5 em
+    }
+
 
     .btn-post {
         padding: 0;
@@ -264,3 +262,4 @@
 }
     }
 
+}
