@@ -152,7 +152,7 @@
         width: 5em;
     }
 
-    trend-btn {
+    .trend-btn {
         width: 8em;
     }
 
@@ -179,7 +179,52 @@
 
 
 
-/* Small phones: from 0 to 480px */
-@media only screen and (max-width: 400px) {
+/* Small phones: from 0 to 320px */
+@media only screen and (max-width: 320px) {
+    .main-grid-container {
+    grid-template-columns: 21em;
+    grid-template-rows: 30em;
+    overflow: hidden;
+}
+
+    .post-subred-1 {
+    display: grid;
+    grid-template-columns: 0 22em;
+    grid-template-rows: 2em 3.5em 20em 2.5em;
+}
+
+    .cont-box a img {
+
+    }
+
+    h1 {
+        left: 5%;
+    font-size: 1.5em;
+    margin-top: 1.5em;;
+}
+     .nav-low ul  {
+         font-size: .8em;
+        padding: .5em 0;
+        margin: 0 !important;
+        justify-content: space-between;
+}
+    .ban-trend {
+        margin: .2em auto;
+            width: 20em;
 
 }
+    h4 {
+        visibility: hidden;
+    }
+
+    .btn-sub {
+    width: 5.8em;
+    border-radius: 0 .5em .5em 0;
+}
+    .btn-post {
+    padding: 0;
+    border-radius: .5em;
+    margin: 0;
+}
+    }
+
