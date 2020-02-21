@@ -117,7 +117,40 @@
 /* Small phones to small tablets: 481px to 767px */
 @media only screen and (max-width: 767px) {
 
+    .main-grid-container {
+    grid-template-columns: 40em;
+    grid-template-rows: 60em;
+    overflow: hidden;
+}
 
+    .main-logo {
+    height: 2em;
+    margin-top: .5em;
+}
+
+.block-search {
+    margin-right: .2em;
+    margin-left: 3em;
+}
+
+.bar-search {
+    width: 65%;
+}
+
+    .btn {
+        padding: .3em 0;
+        width: 5em;
+    }
+
+    .btn-arr-solid {
+    height: 1.5em;
+    margin: 0 .5em;
+}
+
+    h1 {
+        left: 15%;
+        font-size: 2em;
+}
 
 
 /* Small phones: from 0 to 480px */
