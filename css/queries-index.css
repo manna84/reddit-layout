@@ -94,6 +94,7 @@
 
     .block-search {
         margin-bottom: 1em;
+        max-width: 100%;
 }
 
       .ban-trend {
@@ -111,6 +112,14 @@
     h2 {
         font-size: 1em;
         text-align: center;
+}
+
+.sub-post {
+    max-width: 100%;
+}
+
+.bar-post {
+    max-width: 100%;
 }
 
 
@@ -251,14 +260,14 @@
 
     .block-search {
         margin: 0 .2em;
-        min-width: 100%;
+        max-width: 100%;
 }
 
     .bar-search {
-        width: 100%;
+        max-width: 100%;
 }   
     .sub-post {
-        min-width: 100%;
+        max-width: 100%;
     }
 
     .cont-box a img {
@@ -267,7 +276,7 @@
     }
 
     .bar-post {
-        width: auto;
+        width: 100%;
     }
 
     footer {

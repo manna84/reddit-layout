@@ -105,6 +105,13 @@
         font-size: 1em;
         text-align: center;
 }
+.bar-post {
+    width: 100%;
+}
+
+.sub-post {
+    width: 100%;
+}
 
 
 }
@@ -142,7 +149,7 @@
 }
 
     .block-search {
-        margin: 0 .2em;
+        margin: .1em .2em;
 }
 
     .bar-search {
@@ -289,3 +296,15 @@
 }
     }
 
+    @media only screen and (max-width: 480px) {
+        .block-search {
+            max-width: 100%;
+        }
+
+        
+
+        .bar-post {
+            width: 100%;
+        }
+        
+    }
