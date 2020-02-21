@@ -209,10 +209,13 @@
         justify-content: space-between;
 }
     .ban-trend {
-        margin: .2em auto;
+        margin: .2em .2em;
             width: 20em;
 
 }
+    .main-banner-top .block-search {
+        visibility: hidden;
+    }
     h4 {
         visibility: hidden;
     }
@@ -238,5 +241,25 @@
     .bar-post {
         width: auto;
     }
+
+    footer {
+        padding: .1em;
+    }
+
+    footer ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+   .fut-box nav ul:first-child li:first-child a:first-child {
+   margin-left: 2em;
+}
+    .main-logo {height: 2.5 em}
+
+    .btn-post {
+    padding: .1em;
+    border-radius: .5em;
+    margin: .1em;
+}
     }
 
