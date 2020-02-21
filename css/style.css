@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 
-
 /*-----HEADINGS-----*/
 
 h1 {
@@ -24,8 +23,6 @@ h1 {
 /*-----BUTTONS-----*/
 /*----------------------------------------*/
 
-
-
 /*------ENTER SUBREDDIT------*/
 
 .bar-post {
@@ -39,18 +36,8 @@ h1 {
 }
 
 /*--------------------------------------------------------------------*/
-/*-----HEADER----*/
-/*--------------------------------------------------------------------*/
-
-header {
-    background-color: var(--sec-col);
-}
-
-
-/*--------------------------------------------------------------------*/
 /*-----SECTION TREND----*/
 /*--------------------------------------------------------------------*/
-
 
 .section-trend {
     position: relative;
@@ -130,12 +117,6 @@ header {
 /*-----SECTION MAIN POST----*/
 /*--------------------------------------------------------------------*/
 
-
-
-
-
-
-
 /*---------------UPVOTE SECTION-----------------*/
 
 .post-upvt {
@@ -143,18 +124,15 @@ header {
     border-radius: .5em 0 0 .5em;
 }
 
-
 /*---------------CHANNEL SECTION-----------------*/
 
 .box-chanl {
     border-top-right-radius: .5em;
 }
 
-
 /*------------------COMMENT BOX---------------------*/
 
 .comt-box {
-
     display: flex;
     justify-content: space-between;
     background-color: var(--def-col);
@@ -191,6 +169,7 @@ header {
 }
 
 /*------FOLLOW BUTTON------*/
+
 .comt-box a:last-of-type {
     margin-bottom: 1;
     padding-bottom: 1em;

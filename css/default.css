@@ -197,6 +197,10 @@ h6 {
 /*-----HEADER----*/
 /*--------------------------------------------------------------------*/
 
+header {
+    background-color: var(--sec-col);
+}
+
 .main-banner-top {
     display: flex;
     justify-content: space-between;
