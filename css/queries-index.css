@@ -38,7 +38,6 @@ h2 {
 
 .pop-comm ul li a {
     margin-left: .8em;
-    color: var(--sml-col);
     padding: .8em 0;
 }
 
@@ -56,7 +55,113 @@ h2 {
 /* Small phones to small tablets: 481px to 767px */
 @media only screen and (max-width: 767px) {
 
+    .main-grid-container {
+    grid-template-columns: auto auto;
+}
 
+    .block-search {
+    margin: 0;
+}
+
+    .bar-search {
+        width: 70%;
+        margin-bottom: .7em;
+
+}
+
+    .btn {
+    padding: .5em .5em;
+    width: 5.5em;
+}
+
+    .btn-arr-solid {
+    height: 1.5em;
+    margin: .5em 1em;
+    vertical-align: middle;
+}
+
+    .main-logo {
+    height: 2em;
+    margin-top: .5em;
+}
+
+
+
+    .main-banner-top ul {
+    margin-bottom: 0 !important;
+}
+
+    .btn-search {
+    padding-bottom: .5em;
+}
+    h1 {
+    font-size: 2.2em;
+}
+
+    .ban-trend {
+    margin:.5em 0 .5em 0;
+}
+
+    .ban-trend a {
+    font-size: .9em;
+}
+        .trend-btn {
+            width: auto;
+        }
+
+    .bar-post {
+    padding: .7em;
+    width: auto;
+}
+    .section-main-comm {
+    margin: 0 .5em;
+}
+    .section-main-post {
+    margin-right: 0;
+}
+    .post-subred-1 {
+    grid-template-columns: 2.1em auto;
+    grid-template-rows: 2em 3.5em auto 2.5em;
+}
+    h2 {
+    font-size: 1m;
+    height: 10vh;
+    padding: 1em;
+    margin-top: .1em;
+}
+    .comt-box a img {
+    height: 1em;
+    margin-right: .1em;
+}
+
+.btn-post {
+    padding: 0;
+}
+    .comt-box a {
+    font-size: 1em;
+    margin: .4em .2em .4em 0;
+    padding: .2em .1em;
+}
+   .comt-box ul a {
+    margin-right: .1em;
+    font-size: 1em;
+    color: var(--sml-col);
+}
+    .box-chanl a:first-child {
+    font-size: .8em;
+}
+
+    .btn-sub {
+    width: 5em;
+    font-size: 1em;
+}
+    .nav-low ul {
+    padding: 1em 3em;
+    margin: 0 !important;
+    justify-content: space-around;
+}
+
+    }
 
 
 /* Small phones: from 0 to 480px */
