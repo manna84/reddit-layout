@@ -223,10 +223,10 @@
         width: 20em;
     }
     .main-banner-top .block-search {
-        display: block;
+        display: none;
     }
     h4 {
-        display: block;
+        display: none;
     }
 
     .btn-sub {
