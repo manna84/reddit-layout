@@ -234,10 +234,10 @@
         width: 20em;
     }
     .main-banner-top .block-search {
-        visibility: hidden;
+        display: none;
     }
     h4 {
-        visibility: hidden;
+        display: none;
     }
 
     .btn-sub {

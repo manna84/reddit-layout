@@ -120,7 +120,7 @@
 }
 
     .pop-comm {
-        visibility: hidden;
+        display: none;
     }
 
     .row {
@@ -128,7 +128,7 @@
     }
 
     .adv-box {
-        visibility: hidden;
+        display: none;    
     }
 
     .section-trend {
@@ -223,10 +223,10 @@
         width: 20em;
     }
     .main-banner-top .block-search {
-        visibility: hidden;
+        display: block;
     }
     h4 {
-        visibility: hidden;
+        display: block;
     }
 
     .btn-sub {
