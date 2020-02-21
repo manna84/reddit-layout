@@ -112,16 +112,19 @@
 }
 
 
-
-
 /* Small phones to small tablets: 481px to 767px */
 @media only screen and (max-width: 767px) {
 
     .main-grid-container {
-    grid-template-columns: 40em;
+    grid-template-columns: 34em;
     grid-template-rows: 60em;
     overflow: hidden;
 }
+
+    .section-trend {
+        max-width: 100%;
+        padding: 0;
+    }
 
     .main-logo {
     height: 2em;
@@ -129,17 +132,28 @@
 }
 
 .block-search {
-    margin-right: .2em;
-    margin-left: 3em;
+    margin: 0 .2em;
 }
 
 .bar-search {
-    width: 65%;
+    width: 100%;
+}
+    .sub-post {
+        width: 33.5em;
+    }
+
+        .ban-trend {
+        margin: .2em auto;
+            width: 33.5em;
 }
 
-    .btn {
+    .btn-log , .btn-sign {
         padding: .3em 0;
         width: 5em;
+    }
+
+    trend-btn {
+        width: 8em;
     }
 
     .btn-arr-solid {
@@ -151,6 +165,18 @@
         left: 15%;
         font-size: 2em;
 }
+
+     .main-banner-top ul {
+        margin-bottom: .5em;
+    }
+
+    .nav-low ul {
+        padding: .5em 4em;
+        margin: 0 !important;
+        justify-content: space-between;
+}
+
+
 
 
 /* Small phones: from 0 to 480px */
