@@ -189,7 +189,7 @@
 
     .post-subred-1 {
     display: grid;
-    grid-template-columns: 0 22em;
+    grid-template-columns: 0 21em;
     grid-template-rows: 2em 3.5em auto 2.5em;
 }
 
@@ -246,18 +246,22 @@
         padding: .1em;
     }
 
+    footer a {
+        margin-left: 1em;
+    }
+
     footer ul {
         flex-direction: column;
         justify-content: center;
     }
 
    .fut-box nav ul:first-child li:first-child a:first-child {
-   margin-left: 2em;
+   margin-left: 1em;
 }
     .main-logo {height: 2.5 em}
 
     .btn-post {
-    padding: .1em;
+    padding: 0;
     border-radius: .5em;
     margin: .1em;
 }
