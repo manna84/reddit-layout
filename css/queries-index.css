@@ -36,6 +36,14 @@ h2 {
     margin-bottom: 1em;
 }
 
+.pop-comm ul li a {
+    margin-left: .8em;
+    color: var(--sml-col);
+    padding: .8em 0;
+}
+    .pop-comm ul li {
+    padding: 0 1em;
+}
 
 }
 
