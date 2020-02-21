@@ -46,7 +46,7 @@
     margin: .5em 0;
 }
 
-    .block-search {
+    .sub-post {
     width: 34.5em;
 }
  .bar-post {
@@ -58,7 +58,7 @@
    .section-main-comm, {
     margin-left: 0;
 }
-    .section-main-post{
+    .section-main-post {
         margin-right: .5em;
     }
 
@@ -68,6 +68,7 @@
     .pop-comm ul li a {
     margin-left: 1em;
 }
+
 }
 
 /* Small tablet to big tablets: 768px to 1023px */
