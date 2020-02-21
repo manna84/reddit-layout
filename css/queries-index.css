@@ -23,7 +23,6 @@
         left: 10%;
     }
 
-
     h2 {
         padding: 1.5em .1em;
         font-size: 1em;
@@ -100,7 +99,7 @@
         padding: 0 1.5em;
 }
 
-.pop-comm ul li a {
+    .pop-comm ul li a {
         margin-left: 3em;
 }
 
@@ -116,9 +115,9 @@
 @media only screen and (max-width: 767px) {
 
     .main-grid-container {
-    grid-template-columns: 34em;
-    grid-template-rows: 60em;
-    overflow: hidden;
+        grid-template-columns: 34em;
+        grid-template-rows: 60em;
+        overflow: hidden;
 }
 
     .section-trend {
@@ -127,11 +126,11 @@
     }
 
     .main-logo {
-    height: 2em;
-    margin-top: .5em;
+        height: 2em;
+        margin-top: .5em;
 }
 
-.block-search {
+    .block-search {
     margin: 0 .2em;
 }
 
@@ -157,8 +156,8 @@
     }
 
     .btn-arr-solid {
-    height: 1.5em;
-    margin: 0 .5em;
+        height: 1.5em;
+        margin: 0 .5em;
 }
 
     h1 {
@@ -182,15 +181,15 @@
 /* Small phones: from 0 to 320px */
 @media only screen and (max-width: 320px) {
     .main-grid-container {
-    grid-template-columns: 21em;
-    grid-template-rows: 30em;
-    overflow: hidden;
+        grid-template-columns: 21em;
+        grid-template-rows: 30em;
+        overflow: hidden;
 }
 
     .post-subred-1 {
-    display: grid;
-    grid-template-columns: 0 21em;
-    grid-template-rows: 2em 3.5em auto 2.5em;
+        display: grid;
+        grid-template-columns: 0 21em;
+        grid-template-rows: 2em 3.5em auto 2.5em;
 }
 
     .cont-box a img {
@@ -199,18 +198,18 @@
 
     h1 {
         left: 5%;
-    font-size: 1.5em;
-    margin-top: 1.5em;;
+        font-size: 1.5em;
+        margin-top: 1.5em;;
 }
      .nav-low ul  {
-         font-size: .8em;
+        font-size: .8em;
         padding: .5em 0;
         margin: 0 !important;
         justify-content: space-between;
 }
     .ban-trend {
         margin: .2em .2em;
-            width: 20em;
+        width: 20em;
 
 }
     .main-banner-top .block-search {
@@ -221,8 +220,8 @@
     }
 
     .btn-sub {
-    width: 5.8em;
-    border-radius: 0 .5em .5em 0;
+        width: 5.8em;
+        border-radius: 0 .5em .5em 0;
 }
 
     iframe {
@@ -252,16 +251,16 @@
     }
 
    .fut-box nav ul:first-child li:first-child a:first-child {
-   margin-left: 1em;
+        margin-left: 1em;
 }
     .main-logo {height: 2.5 em}
 
     .btn-post {
-    padding: 0;
-    margin: .1em;
+        padding: 0;
+        margin: .1em;
 }
     .comt-box img {
-    margin-right: 0;
+        margin-right: 0;
 }
     }
 
