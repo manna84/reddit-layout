@@ -115,13 +115,17 @@
 @media only screen and (max-width: 767px) {
 
     .main-grid-container {
-        grid-template-columns: auto hidden;
+        grid-template-columns: auto 0;
         grid-template-rows: 60em;
         overflow: hidden;
 }
 
     .pop-comm {
         visibility: hidden;
+    }
+
+    .row {
+        max-width: 100%;
     }
 
     .adv-box {
@@ -145,14 +149,20 @@
     .bar-search {
         width: 100%;
 }   
+    .bar-post {
+        width: 100%;
+    }
     .sub-post {
-        width: 33.5em;
+        width: 100%;
     }
 
     .ban-trend {
-        margin: .2em 0;
-        width: 33.5em;
+        min-width: 100%;
+        padding: 0 1em 0 .5em;
 }
+    .btn-sub {
+        margin: 0 1em   0   0;
+    }
 
     .btn-log , .btn-sign {
         padding: .3em 0;
@@ -189,15 +199,14 @@
 /* Small phones: from 331 px to 480px */
 @media only screen and (max-width: 480px) {
     .main-grid-container {
-        grid-template-columns: 21em;
+        grid-template-columns: 21em 0;
         grid-template-rows: 30em;
-        overflow: hidden;
-}
+    }
+
+
 
     .post-subred-1 {
-        display: grid;
-        grid-template-columns: 0 21em;
-        grid-template-rows: 2em 3.5em auto 2.5em;
+        grid-template-columns: 0 auto;
     }
 
     h1 {
