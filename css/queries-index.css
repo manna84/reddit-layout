@@ -224,11 +224,7 @@
     width: 5.8em;
     border-radius: 0 .5em .5em 0;
 }
-    .btn-post {
-    padding: 0;
-    border-radius: .5em;
-    margin: 0;
-}
+
     iframe {
         height: 90%;
     }
