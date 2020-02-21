@@ -80,11 +80,11 @@
     }
 
     .row {
-        width: 100%;
+            width: 100%;
     }
 
     .main-banner-top ul {
-        margin-bottom: .1em;
+        margin-bottom: .1em;    
     }
 
     .block-search {
@@ -186,7 +186,7 @@
 
 
 
-/* Small phones: from 0 to 480px */
+/* Small phones: from 331 px to 480px */
 @media only screen and (max-width: 480px) {
     .main-grid-container {
         grid-template-columns: 21em;
