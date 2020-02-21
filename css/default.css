@@ -1,0 +1,208 @@
+/*----ROOTS----*/
+
+:root {
+    --main-col: #FAB201;
+    --sec-col: #403254;
+    --def-col: #fff;
+    --btn-hov: #e5ad01;
+    --sml-col: #555;
+    --top-brd-col: #c1c0c0;
+    --shd-col: #acacac;
+    --pd-sz: .125em;
+    --upt-col: #b41313;
+    --head-chl: #636ef2;
+}
+
+/*-----REUSE ITEM----*/
+
+.row {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgba(206, 206, 206, 0.27);
+}
+
+.box {
+    margin: .5em 0 1.5em 0;
+}
+
+/*-----HEADINGS-----*/
+
+h2 {
+    color: var(--def-col);
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.2em;
+    background-image: url(img/community-background.jpg);
+    height: 13vh;
+    background-position: center;
+    background-size: cover;
+    padding: 1.8em;
+    margin-top: .4em;
+    border-radius: .5em .5em 0 0;
+}
+
+h3 {
+    font-size: .8em;
+    margin: .3em 0;
+}
+
+h4 {
+    display: inline;
+    font-size: .7em
+}
+
+h5 {
+    font-size: 1.2em
+}
+
+h6 {
+    margin: 1em 1em;
+    color: var(--shd-col);
+}
+
+/*----------------------------------------*/
+/*-----BUTTONS-----*/
+/*----------------------------------------*/
+
+.btn {
+    border: .1em solid var(--main-col);
+    border-radius: 10em;
+    text-decoration: none;
+    padding: .2em 1.1em;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: var(--btn-hov);
+    border-color: var(--btn-hov);
+    transition: background-color .2s, color .2s;
+}
+
+.btn-log {
+    margin-right: .8em;
+    color: var(--main-col);
+    background-color: var(--def-col);
+}
+
+.btn-log:hover {
+    color: var(--sec-col);
+    transition: background-color .2s, color .2s;
+}
+
+.btn-sign {
+    background-color: var(--main-col);
+    color: var(--def-col);
+}
+
+.btn-sign:hover {
+    color: var(--sec-col);
+    transition: background-color .2s, color .2s;
+}
+
+/*-----------SOLID BIG BUTTONS----------*/
+
+.btn-bod {
+    text-decoration: none;
+    display: block;
+    background-color: var(--main-col);
+    border: .125em solid var(--main-col);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    padding: .25em;
+    border-radius: .5em;
+    color: var(--sec-col);
+    width: 9em;
+    letter-spacing: .06em;
+}
+
+.btn-bod:hover {
+    opacity: .7;
+    transition: opacity .2s;
+}
+
+.ld-btn {
+    margin: 2em auto;
+    box-shadow: .125em .125em .313em var(--shd-col);
+}
+
+.view-btn {
+    margin: 1em auto;
+}
+
+/*------SEARCH BAR------*/
+
+.block-search {
+    display: flex;
+    margin-right: 2em;
+}
+
+.bar-search {
+    border: .08em solid var(--main-col);
+    border-right: none;
+    padding: .1em 0 .1em .8em;
+    border-radius: 10em 0  0 10em;
+}
+
+.btn-search {
+    width: 1.8em;
+    height: 1.8em;
+    border: .08em solid var(--main-col);
+    border-radius: 0 10em 10em 0;
+    font-size: 1em;
+    padding-bottom: .3em;
+    background: var(--main-col);
+    cursor: pointer;
+}
+
+.push-add {
+    height: 1.2em;
+    margin-right: .3em;
+    vertical-align:middle;
+    padding-bottom: .1em;
+}
+
+/*------ENTER SUBREDDIT------*/
+
+.bar-post {
+    border: .08em solid var(--main-col);
+    border-right: none;
+    padding: .7em;
+}
+
+.btn-sub {
+    border: .08em solid var(--main-col);
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--def-col);
+    background: var(--main-col);
+    cursor: pointer;
+}
+
+.btn-sub:hover {
+    opacity: .7;
+    transition: opacity .2s;
+}
+
+/*--------------------------------------------------------------------*/
+/*-----HEADER----*/
+/*--------------------------------------------------------------------*/
+
+.main-banner-top {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--sec-col);
+}
+
+.main-banner-top ul {
+    display: flex;
+    margin-right: .125em;
+}
+
+.main-logo {
+    height: 2.5em;
+    margin-top: .5em;
+}
