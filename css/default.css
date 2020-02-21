@@ -233,7 +233,6 @@ header {
 
 /*------FIRST POST-----*/
 
-
 .post-subred-1 {
     display: grid;
     grid-template-columns: 3.125em auto;
@@ -329,8 +328,6 @@ header {
     grid-column: 2/3;
     grid-row: 4/5;
     background-color: transparent;
-
-
 }
 
 /*--------------------------------------------------------------------*/
@@ -364,7 +361,6 @@ header {
     height: 1.9em;
 }
 
-
 .pop-comm ul li {
     display: flex;
     justify-content:flex-start;
@@ -397,7 +393,6 @@ header {
 
 .adv-box img {
     padding: 0 .5em .5em .5em;
-
 }
 
 /*--------------------------------------------------------------------*/
@@ -417,7 +412,6 @@ footer nav {
 footer ul {
     display: flex;
 }
-
 
 footer a  {
     text-decoration: none;
