@@ -4,11 +4,23 @@
 
 /* Big tablet to 1200px: 1024px to 1220px */
 @media only screen and (max-width: 1220px) {
-    .row {
-        max-width: 100%;
+
+    .main-grid-container {
+    grid-template-columns: 40em auto;
         padding: 0 2%;
+}
+
+    .pop-comm ul li a {
+        font-size: .8em;
+}
+
+    .row {
+        padding: 0 1%;
     }
 
+
+h2 {
+    font-size: 1em;
 }
 
 
