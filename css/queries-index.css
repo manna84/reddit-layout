@@ -115,10 +115,18 @@
 @media only screen and (max-width: 767px) {
 
     .main-grid-container {
-        grid-template-columns: 34em;
+        grid-template-columns: auto hidden;
         grid-template-rows: 60em;
         overflow: hidden;
 }
+
+    .pop-comm {
+        visibility: hidden;
+    }
+
+    .adv-box {
+        visibility: hidden;
+    }
 
     .section-trend {
         max-width: 100%;
@@ -131,19 +139,19 @@
 }
 
     .block-search {
-    margin: 0 .2em;
+        margin: 0 .2em;
 }
 
-.bar-search {
-    width: 100%;
-}
+    .bar-search {
+        width: 100%;
+}   
     .sub-post {
         width: 33.5em;
     }
 
-        .ban-trend {
-        margin: .2em auto;
-            width: 33.5em;
+    .ban-trend {
+        margin: .2em 0;
+        width: 33.5em;
 }
 
     .btn-log , .btn-sign {
@@ -178,8 +186,8 @@
 
 
 
-/* Small phones: from 0 to 320px */
-@media only screen and (max-width: 320px) {
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
     .main-grid-container {
         grid-template-columns: 21em;
         grid-template-rows: 30em;
