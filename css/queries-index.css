@@ -41,8 +41,11 @@ h2 {
     color: var(--sml-col);
     padding: .8em 0;
 }
-    .pop-comm ul li {
-    padding: 0 1em;
+
+
+    h2 {
+    font-size: 1em;
+    text-align: center;
 }
 
 }
@@ -53,7 +56,6 @@ h2 {
 /* Small phones to small tablets: 481px to 767px */
 @media only screen and (max-width: 767px) {
 
-}
 
 
 
