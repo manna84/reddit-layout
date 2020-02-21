@@ -52,7 +52,7 @@ h1 {
 
 .nav-low ul {
     display: flex;
-    padding: 1em 12e    m;
+    padding: 1em 12em;
     margin: 0 !important;
     justify-content: space-around;
 }
